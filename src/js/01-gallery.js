@@ -21,7 +21,7 @@ galleryRender(galleryItems);
 
 
 
-let SimpleLightbox = new SimpleLightbox('.gallery a', {
+let lightbox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
     captionDelay: 250,
     overlayOpacity: 0.9,
